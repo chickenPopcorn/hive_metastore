@@ -2,8 +2,8 @@
 
 set -e
 
-REPONAME=joshuarobinson
-TAG=hivemetastore
+REPONAME=quay.io/jimmy_xie
+TAG=hive_metastore
 
 docker build -t $TAG .
 

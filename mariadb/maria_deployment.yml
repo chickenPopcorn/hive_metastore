@@ -39,9 +39,9 @@ spec:
           mountPath: /var/lib/mysql
         resources:
           requests:
-            memory: "8G"
-            cpu: 2
+            memory: "4G"
+            cpu: 1
       volumes:
       - name: mariadb-for-hive
         persistentVolumeClaim:
-          claimName: maria-pv-claim
+          claimName: hive-metastore-pvc
